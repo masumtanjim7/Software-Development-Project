@@ -37,7 +37,7 @@ int main()
     ofstream myfile("Participant.txt");
     ifstream myfile1("Participant1.txt");{
     HANDLE h= GetStdHandle(STD_OUTPUT_HANDLE);
-    SetConsoleTextAttribute(h,9);
+    SetConsoleTextAttribute(h,10);
 
     cout<<"\t\t\t------------------------------------------------------------\n";
     cout << "\n\t\t\t\t\t **WELCOME TO QUIZ GAME**"
